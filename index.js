@@ -1,7 +1,7 @@
-const SVG = require('./Library/SVG')
-const { Circle, Triangle, Square } = require('./Library/Shape ')
 const inquirer = require('inquirer')
 const fs = require('fs')
+const { Circle, Triangle, Square } = require('./Library/Shape')
+const SVG = require('./Library/SVG')
 
 var questions = [
   {
@@ -31,7 +31,7 @@ var questions = [
 
 function init () {
   inquirer.prompt(questions).then(response => {
-    console.log(respone)
+    console.log(response)
     switch (response.logo_Shape) {
       case 'Circle':
         var myLogoShape = new Circle()
@@ -43,7 +43,7 @@ function init () {
         var myLogoShape = new Triangle()
         break
     }
-    myLogoShape(response.shape_color)
+    myLogoShape.setColor(response.shape_color)
     var newSVG=new SVG()
     newSVG.setShape(myLogoShape)
     newSVG.setText(response.text_message, response.text_color)
