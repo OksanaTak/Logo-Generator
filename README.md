@@ -25,3 +25,4 @@ AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
+Logo Generator App Test Video link: https://drive.google.com/file/d/1hM_iHSb8VnR5igO1tPW7mueS1-MhngDF/view
