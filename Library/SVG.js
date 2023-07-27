@@ -4,7 +4,7 @@ class SVG {
     this.shapeElement = ''
   }
   setText (textmessage, color) {
-    this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${textmessage}</text>`
+    this.textElement = `<text x="150" y="125" font-size="50" text-anchor="middle" fill="${color}">${textmessage}</text>`
   }
   setShape (shapeElement) {
     this.shapeElement = shapeElement.render()
