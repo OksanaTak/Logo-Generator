@@ -25,4 +25,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
-Logo Generator App Test Video link: https://drive.google.com/file/d/1hM_iHSb8VnR5igO1tPW7mueS1-MhngDF/view
+
+! [Logo Generator App Functionality Test Video link]: (https://drive.google.com/file/d/1hM_iHSb8VnR5igO1tPW7mueS1-MhngDF/view)
+! [SVG Logo Test Vide]: (https://drive.google.com/file/d/1jLyUAYElPFSweepX1AcfG_PSM8aO58yF/view)
+[Git Hub Link:](https://github.com/OksanaTak/Logo-Generator)
